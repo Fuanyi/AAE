@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 50px;
+    background-color: white;
+}
+.header{
+    height: 30vh;
+    background-size: contain;
+    background-position: center;
+    background:linear-gradient(to top,rgba(128, 128, 128, 0.3),white) ;
+    position: relative;
+}
+.left-header{
+    height: 30vh;
+    width: 28%;
+    background-image: url(./IMG-20210224-WA0018.jpg),linear-gradient(to top,rgba(128, 128, 128, 0.3),white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.right-header{
+    position: absolute;
+    left: 28.5%;
+    top: 0%;
+    width: 75%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    position: absolute;
+    top: 50px;
+    left: 20%;
+}
+.navbar{
+   position: absolute;
+   top: 17.5vh; 
+}
+li{
+    display: inline-block;
+    font-size: 31px;
+    /* padding: 10px; */
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    border-style: solid;
+    border-color: floralwhite;
+    border-width: thin;
+}
+li a{
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.active{
+    
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+.Learning{
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.Articles{
+    background: linear-gradient(to top,rgba(128, 128, 128, 0.8),white);
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+.About{
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.Contacts{
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+.Newspapers{
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
