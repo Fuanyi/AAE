@@ -91,6 +91,8 @@ li a{
 }
 .contents{
     position: relative;
+    min-height: calc(100vh + 90px);
+    height: 60vh;
 }
 .welcome{
     position: absolute;
@@ -124,21 +126,19 @@ li a{
     position: relative;
     top: 50px;
 }
-.category1-title{
+.category1-title,.category2-title,.category3-title,.category4-title{
     color: rgb(189, 45, 45);
     letter-spacing: 10px;
     word-spacing: 10px;
     background: linear-gradient(to top,rgba(66, 44, 167, 0.8),white);
     text-align: center;
 }
-.cat1-link1{
-    font-size: 12px;
-    text-decoration-style:dashed ;
-}
+
 .footer{
+    margin-top: auto;
     background: #030336;
     color: #d3d3d3;
-    height: 400px;
+    height: 40vh;
     position: relative;
 }
 .footer .footer-bottom{
@@ -150,7 +150,7 @@ li a{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 20px;
+    
 }
 .footer .footer-content{
     border-color: blueviolet;
@@ -160,5 +160,5 @@ li a{
 .footer .footer-content .footer-section{
     flex: 1;
     border: white solid 1px;
-    padding: 20px;
+    padding: 0px;
 }
