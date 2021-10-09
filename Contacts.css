@@ -3,19 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+html, body{
+    height: 100%;
+    font-family: 'judson','Advent Pro';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    padding: 50px;
     background-color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
 .header{
     height: 30vh;
     background-size: contain;
     background-position: center;
-    background:linear-gradient(to top,rgba(128, 128, 128, 0.3),white) ;
+    background: linear-gradient(to top,rgba(67, 199, 133, 0.8),white); ;
     position: relative;
 }
 .left-header{
@@ -38,7 +44,7 @@ body{
 h1{
     position: absolute;
     top: 50px;
-    left: 20%;
+    left: 3%;
 }
 .navbar{
    position: absolute;
@@ -46,13 +52,13 @@ h1{
 }
 li{
     display: inline-block;
-    font-size: 31px;
+    font-size: 25px;
     /* padding: 10px; */
 }
 a{
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #dddd;
     border-style: solid;
     border-color: floralwhite;
     border-width: thin;
@@ -63,7 +69,7 @@ li a{
 }
 
 .active{
-   
+    background: linear-gradient(to top,rgba(128, 128, 128, 0.8),white);
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
 }
@@ -80,12 +86,11 @@ li a{
     border-bottom-right-radius: 0%;
 }
 .Contacts{
-    background: linear-gradient(to top,rgba(128, 128, 128, 0.8),white);
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
 }
-.Newspapers{
+/* .Newspapers{
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-top-right-radius: 0%;
-}
+} */
