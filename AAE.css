@@ -82,6 +82,9 @@ li a{
     background-repeat: no-repeat;
     
 }
+#home-visiblity{
+    visibility: hidden;
+}
 .Learning{
     background-image: url(./learning.png);
     border-top-left-radius: 0%;
@@ -89,6 +92,9 @@ li a{
     color: brown;
     font-weight: bolder;
     background-repeat: no-repeat;
+}
+#learning-visiblity{
+    visibility: hidden;
 }
 .Articles{
     background-image: url(./article-icon.png);
@@ -98,6 +104,9 @@ li a{
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
 }
+#articles-visiblity{
+    visibility: hidden;
+}
 .About{
     background-image: url(./about.png);
     color: brown;
@@ -106,6 +115,9 @@ li a{
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
 }
+#about-visiblity{
+    visibility: hidden;
+}
 .Contacts{
     background-image: url(./contact.png);
     color: brown;
@@ -113,6 +125,9 @@ li a{
     background-repeat: no-repeat;
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
+}
+#contacts-visiblity{
+    visibility: hidden;
 }
 /* .Newspapers{
     border-top-left-radius: 0%;
