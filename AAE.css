@@ -23,13 +23,13 @@ body{
     height: 30vh;
     background-size: contain;
     background-position: center;
-    background: linear-gradient(to top,rgba(67, 199, 133, 0.8),white); ;
+    
     position: relative;
 }
 .left-header{
     height: 30vh;
     width: 28%;
-    background-image: url(./IMG-20210224-WA0018.jpg),linear-gradient(to top,rgba(128, 128, 128, 0.3),white);
+    background-image: url(./IMG-20210224-WA0018.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -42,7 +42,11 @@ body{
     height: 30vh;
     background-size: cover;
     background-position: center;
+    background: linear-gradient(to top,rgba(88, 79, 204, 0.8),white);
 }
+.navbar-toggler-icon{
+    background-color: white;
+} 
 h1{
     position: absolute;
     top: 50px;
@@ -75,10 +79,10 @@ li a{
 }
 
 .active{
-    background-color: rgba(0, 0, 255, 0.151);
+    color: black;
+    /* background-color: rgba(0, 0, 255, 0.151); */
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
-    color: brown;
     font-weight: bolder;
     background-repeat: no-repeat;
     
@@ -88,14 +92,14 @@ li a{
     
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
-    color: blue;
+    color: black;
     font-weight: bolder;
     background-repeat: no-repeat;
 }
 
 .Articles{
    
-    color: blue;
+    color: black;
     font-weight: bolder;
     background-repeat: no-repeat;
     border-bottom-left-radius: 0%;
@@ -104,7 +108,7 @@ li a{
 
 .About{
     
-    color: blue;
+    color: black;
     font-weight: bolder;
     background-repeat: no-repeat;
     border-top-left-radius: 0%;
@@ -113,7 +117,7 @@ li a{
 
 .Contacts{
     
-    color: blue;
+    color: black;
     font-weight: bolder;
     background-repeat: no-repeat;
     border-bottom-left-radius: 0%;
@@ -141,8 +145,8 @@ li a{
     font-family: 'Advent Pro';
     font-weight: 900;
     text-align: center;
-    background: linear-gradient(to top,rgba(67, 199, 133, 0.8),white);
-    color: royalblue;
+    background: linear-gradient(to top,rgba(69, 67, 199, 0.8),white);
+    color: black;
     word-spacing: 20px;
     letter-spacing: 2px;
     /* line-height: 100%; */

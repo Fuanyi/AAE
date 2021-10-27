@@ -21,13 +21,13 @@ body{
     height: 30vh;
     background-size: contain;
     background-position: center;
-    background: linear-gradient(to top,rgba(67, 199, 133, 0.8),white); ;
+    
     position: relative;
 }
 .left-header{
     height: 30vh;
     width: 28%;
-    background-image: url(./IMG-20210224-WA0018.jpg),linear-gradient(to top,rgba(128, 128, 128, 0.3),white);
+    background-image: url(./IMG-20210224-WA0018.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -40,7 +40,9 @@ body{
     height: 30vh;
     background-size: cover;
     background-position: center;
+    background: linear-gradient(to top,rgba(88, 79, 204, 0.8),white); 
 }
+
 h1{
     position: absolute;
     top: 50px;
