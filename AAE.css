@@ -67,11 +67,11 @@ li{
 a{
     display: block;
     padding: 8px;
-    background-color: #dddd;
+    background-color: purple;
     border-style: solid;
     border-color: floralwhite;
     border-width: thin;
-    
+
 }
 li a{
     text-decoration: none;
@@ -171,8 +171,8 @@ li a{
 }
 .category1-title,.category2-title,.category3-title,.category4-title{
     color: rgb(189, 45, 45);
-    letter-spacing: 10px;
-    word-spacing: 10px;
+    letter-spacing: 5px;
+    word-spacing: 1px;
     /* background: linear-gradient(to top,rgba(67, 199, 133, 0.8),white); */
     text-align: left;
     font-size: 25px;
